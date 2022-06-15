@@ -1,0 +1,29 @@
+.catalogue__bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/src/Assets/storebgimage/OT_LR-2-11571552722591_xlarge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.text__above{
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+.text__above h2{
+    margin-right: 3rem;
+}
+.catalogue__cards{
+    display: flex;
+    position: relative;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}

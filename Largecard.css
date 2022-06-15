@@ -1,0 +1,57 @@
+.largecard{
+    
+}
+img{
+    object-fit: contain;
+    max-height: 340px;
+}
+.largecard{
+    display: flex;
+    height: 100%;
+    width: 600px;
+    margin: 2rem;
+}
+.image{
+    width: 50%;
+}
+.first__part{
+    display: flex;
+    align-items: flex-start;
+    height: 40%;
+    overflow-y: hidden;
+}
+.second__part{
+    display: flex;
+    height: 60%;
+    
+    align-items: flex-end;
+}
+.red__line{
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: #c70101;
+    transition: all ease-in .25s;
+}
+h3{
+    text-transform: uppercase;
+}
+.largecard:hover .red__line{
+    display: inline-block;
+    width: 35px;
+    background-color: #c70101;
+    transition: all ease-out .25s;
+}
+.text__content{
+    height: 307.5px;
+    width: 50%;
+    background-color: aqua;
+    padding: 1rem;
+}
+.main__text{
+    justify-content: flex-start;
+}
+.below__text{
+    display: flex;
+    
+}

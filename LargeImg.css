@@ -1,0 +1,18 @@
+.largeimg__content{
+    background: url(/src/Assets/LargeImg/FVHP4zbWUAA1KJN1655121367392_xlarge.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: #fff;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+.LargeImg__text{
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 400px;
+}

@@ -1,0 +1,93 @@
+.Nav__top{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    width: 100vw;
+}
+.Nav__bottom{
+    background-color: #c70101;;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+}
+.logo{
+    object-fit: contain;
+    height: 60px;
+    margin: 0.5rem 0;
+}
+
+.nav__topimg{
+    height: auto;
+    width: auto;
+    max-height: 25px;
+    max-width: 120px;
+    margin: 0 0.45rem;
+}
+.left__top{
+    display: flex;
+    justify-content: flex-start;
+    flex: 0.5;
+    margin: 0.7rem 1rem;
+}
+.right__top{
+    display: flex;
+    justify-content: flex-end;
+    flex: 0.5;
+    margin: 0.7rem 1rem;
+}
+
+.left__bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0.7;
+    margin: 0 1rem;
+}
+
+.right__bottom{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0.3;
+    margin: 0 1rem;
+}
+
+.Nav__bottom > .left__bottom > .navlist >ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.Nav__bottom > .left__bottom > .navlist >ul > li{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0.4rem;
+    display: flex;
+}
+
+.Nav__bottom > .right__bottom >ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+.HCL{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    margin-left: 1rem;
+}
+.HCL > p{
+    font-size: .625rem;
+    margin-right: 0.25rem;
+    padding: 0.325rem;
+}
+.hcl__logo{
+    object-fit: contain;
+    max-width: 42px;
+    max-height: 10px;
+}

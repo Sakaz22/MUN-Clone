@@ -1,0 +1,36 @@
+.sponsors{
+    padding: 3rem;
+}
+.main__sponsors {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.main__sponsors img{
+    max-height: 42px;
+    max-width: 130px;
+    margin-right: 2rem;
+}
+.first__row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.second__row{
+    display: flex;
+    justify-content: center;
+}
+.first__row img{
+    min-height: 15px;
+    min-width: 50px;
+    max-height: 30px;
+    max-width: 75px;
+    margin-right:2rem;
+}
+.second__row img{
+    min-height: 15px;
+    min-width: 50px;
+    max-height: 30px;
+    max-width: 75px;
+    margin-right: 2rem;
+}

@@ -1,0 +1,20 @@
+.img{
+    background-image: url(/src/Assets/Largecards/2461525334943752_xlarge.jpg);
+    height: 132px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text__content-sm{
+    height: auto;
+    width: 400px;
+}
+.smallcard{
+    margin: 2rem 1rem;
+}
+.smallcard:hover .red__line{
+    display: inline-block;
+    width: 35px;
+    background-color: #c70101;
+    transition: all ease-out .25s;
+}
